@@ -7,9 +7,9 @@ SURVIVAL ANALYSIS
 import pandas as pd
 from lifelines import KaplanMeierFitter
 
-# =================================================================================
+# =========================================================================================
 # Business Detail - Perform Kaplan meir analysis for the given data and get the life table
-# =================================================================================
+# =========================================================================================
 
 patient = pd.read_csv('Patient.csv')
 patient.head()
